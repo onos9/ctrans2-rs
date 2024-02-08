@@ -1,5 +1,5 @@
 [package]
-name = "ctranslate2"
+name = "ctrans2"
 version = "0.1.0"
 description = "Rust bindings for OpenNMT/CTranslate2"
 repository = "https://github.com/onos9/ct2-rs"
