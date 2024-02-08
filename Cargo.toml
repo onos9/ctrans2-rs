@@ -8,7 +8,7 @@ edition = "2021"
 [dependencies]
 cxx = { version = "1.0.102", features = ["c++17"] }
 anyhow = "1.0.72"
-tokenizers = "0.15.1"
+# tokenizers = "0.15.1"
 
 [build-dependencies]
 cmake = "0.1.50"
