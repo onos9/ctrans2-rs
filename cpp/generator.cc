@@ -6,8 +6,8 @@
 //
 // http://opensource.org/licenses/mit-license.php
 
-#include "include/generator.h"
-#include "include/convert.h"
+#include "generator.h"
+#include "convert.h"
 #include "src/generator.rs.h"
 
 using rust::Str;
