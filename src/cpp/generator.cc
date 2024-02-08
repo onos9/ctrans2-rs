@@ -6,9 +6,9 @@
 //
 // http://opensource.org/licenses/mit-license.php
 
-#include "ctranslate2/include/generator.h"
-#include "ctranslate2/include/convert.h"
-#include "ctranslate2/src/generator.rs.h"
+#include "include/generator.h"
+#include "include/convert.h"
+#include "src/generator.rs.h"
 
 using rust::Str;
 using rust::Vec;

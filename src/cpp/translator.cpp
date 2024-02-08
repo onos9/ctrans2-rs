@@ -6,9 +6,9 @@
 //
 // http://opensource.org/licenses/mit-license.php
 
-#include "ctranslate2/include/translator.h"
-#include "ctranslate2/include/convert.h"
-#include "ctranslate2/src/translator.rs.h"
+#include "include/translator.h"
+#include "include/convert.h"
+#include "src/translator.rs.h"
 
 using rust::Str;
 using rust::String;

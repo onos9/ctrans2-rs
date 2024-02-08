@@ -1,13 +1,9 @@
-## Unit Test (watch)
+## Dev
 
 ```sh
-cargo watch -q -c -x "test -- --nocapture"
+# Terminal 1 - To run the server.
+cargo run -p web-server
 
-# Specific test with filter.
-cargo watch -q -c -x "test -p lib-core test_create -- --nocapture"
+# Terminal 2 - To run the tests.
+cargo run -p web-server --example quick_dev
 ```
-
-## Unit Test
-
-```sh
-cargo test -- --nocapture

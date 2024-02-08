@@ -18,6 +18,5 @@ cmake = "0.1.50"
 cxx-build = "1.0.102"
 build-target = "0.4.0"
 
-
-# [workspace]
-# members = ["examples/whisper"]
+[workspace]
+members = ["examples/generator"]
