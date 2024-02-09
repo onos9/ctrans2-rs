@@ -48,7 +48,7 @@ fn main() {
     cxx_build::bridges(vec![
         "src/generator/generator.rs",
     ])
-    .file("cpp/generator.cpp")
+    .file("cpp/generator.cc")
     .flag_if_supported("-std=c++17")
     .include("CTranslate2/include")
     .compile("ctrans2");
