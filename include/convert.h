@@ -1,6 +1,6 @@
 // convert.h
 //
-// Copyright (c) 2023 Junpei Kawamoto
+// Copyright (c) 2023 Onojeta Brown
 //
 // This software is released under the MIT License.
 //

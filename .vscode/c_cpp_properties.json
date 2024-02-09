@@ -4,6 +4,7 @@
             "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/**",
+                "${workspaceFolder}/CTranslate2/include/**",
                 "/Users/user/beznet"
             ],
             "defines": [],

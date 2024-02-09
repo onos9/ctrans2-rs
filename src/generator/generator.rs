@@ -1,13 +1,3 @@
-// generator.rs
-//
-// Copyright (c) 2023 Junpei Kawamoto
-//
-// This software is released under the MIT License.
-//
-// http://opensource.org/licenses/mit-license.php
-
-//! Bindings for ctranslate2::Generator.
-
 use cxx::UniquePtr;
 
 use crate::config::{BatchType, ComputeType, Config, Device};
@@ -81,7 +71,7 @@ mod ffi {
     }
 
     unsafe extern "C++" {
-        include!("ctranslate2/include/generator.h");
+        include!("../../include/generator.h");
 
         type Generator;
 
@@ -303,11 +293,13 @@ impl From<ffi::GenerationResult> for GenerationResult {
 
 impl GenerationResult {
     /// Returns the number of sequences.
+    #[allow(dead_code)]
     pub fn num_sequences(&self) -> usize {
         self.sequences.len()
     }
 
     /// Returns true if this result has scores.
+    #[allow(dead_code)]
     pub fn has_scores(&self) -> bool {
         !self.scores.is_empty()
     }

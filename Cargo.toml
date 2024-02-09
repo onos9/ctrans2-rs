@@ -4,13 +4,15 @@ version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[example]]
+name = "generate"
+path = "examples/generate.rs"
 
 [dependencies]
 cxx = { version = "1.0.102", features = ["c++17"] }
 anyhow = "1.0.72"
-# tokenizers = "0.15.1"
+tokenizers = "0.15.1"
 
 [build-dependencies]
 cmake = "0.1.50"
 cxx-build = "1.0.102"
-build-target = "0.4.0"
